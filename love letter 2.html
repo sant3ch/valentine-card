@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Love letter for crush</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="love letter 2.css" />
+  </head>
+  <body>
+    <!-- tiktok meowish -->
+    <div class="envlope-wrapper">
+      <div id="envelope" class="close">
+        <div class="front flap"></div>
+        <div class="front pocket"></div>
+        <div class="letter">
+          <div class="letter-page first-page">
+            <div class="words line1">Hi bebi!</div>
+            <div class="words line2">I miss u so much.</div>
+            <div class="words line3">Can't wait to see u again</div>
+            <div class="words line4">Happy Valentine’s Day ❤️</div>
+          </div>
+          <div class="letter-page second-page">
+            <div class="words line5">Will you be my valentine?</div>
+            <!-- Removed the button-container from here -->
+          </div>
+        </div>
+        <div class="hearts">
+          <div class="heart a1"></div>
+          <div class="heart a2"></div>
+          <div class="heart a3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="reset">
+      <button id="open">Open</button>
+      <button id="next" style="display: none;">Next</button>
+
+      <!-- default -->
+      <button id="reset">Close</button>
+
+      <!-- hidden answer buttons -->
+      <button id="bottomYes" style="display:none;">Yes</button>
+      <button id="bottomNo" style="display:none;">No</button>
+    </div>
+
+    <!-- Flower Bouquet Modal -->
+<div id="flowerModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <h2>You made me the happiest person! 💖</h2>
+    <img src="catflowers.png">
+    <h2>Thank you for saying YES! This bouquet is for you, my valentine! 💐</h2>
+    <iframe id="spotifyPlayer"
+style="border-radius:12px"
+width="100%"
+height="352"
+frameBorder="0"
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+loading="lazy"></iframe>
+    <button id="celebrateAgain" class="celebrate-btn">Celebrate Again!</button>
+  </div>
+</div>
+
+    <!-- Confetti container -->
+    <div id="confetti-container"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="love letter 2.js"></script>
+  </body>
+</html>
